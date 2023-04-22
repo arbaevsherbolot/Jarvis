@@ -44,7 +44,13 @@ export const Home = () => {
         speak(finalText);
       } else if (transcript === "протокол чат помощник") {
         window.open("https://chat.openai.com/");
-        const finalText = "К вашим услугам сэр.";
+        const finalText = "протокол чат помощник активирован сэр.";
+        speak(finalText);
+      } else if (
+        transcript === "Джарвис поставь Мстители война бесконечности"
+      ) {
+        window.open("https://ww6.frkp.lol/film/843649/");
+        const finalText = "Приятного просмотра сэр.";
         speak(finalText);
       } else if (transcript === "Открой моё резюме") {
         window.open(
