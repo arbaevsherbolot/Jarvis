@@ -46,6 +46,12 @@ export const Home = () => {
         window.open("https://chat.openai.com/");
         const finalText = "К вашим услугам сэр.";
         speak(finalText);
+      } else if (transcript === "Открой моё резюме") {
+        window.open(
+          "https://www.canva.com/design/DAFgg-OFJPg/uYyhEZf-4lL1x3rTBxwB2A/edit?utm_content=DAFgg-OFJPg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+        );
+        const finalText = "К вашим услугам сэр.";
+        speak(finalText);
       } else if (transcript === "Джарвис") {
         const finalText = "Да, сэр, ДЖАРВИС вашим услугам.";
         speak(finalText);
