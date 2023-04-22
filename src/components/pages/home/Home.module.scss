@@ -1,0 +1,39 @@
+.container {
+  width: 1200px;
+  min-height: 100vh;
+
+  margin: 0 auto;
+  padding: 0 5%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .logo {
+    padding-bottom: 2rem;
+
+    img {
+      width: 200px;
+      border-radius: 2rem;
+    }
+  }
+
+  .button {
+    width: 30%;
+
+    padding: 1rem 0;
+
+    outline: none;
+    border: none;
+    border-radius: 0.2rem;
+
+    background-color: #5500ff;
+    box-shadow: 0 0 2rem #5500ff;
+
+    font-size: 1rem;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+  }
+}
