@@ -52,6 +52,10 @@ export const Home = () => {
         );
         const finalText = "К вашим услугам сэр.";
         speak(finalText);
+      } else if (transcript === "протокол уютный вечер") {
+        window.open("https://www.youtube.com/watch?v=hFoKgX3IHY4");
+        const finalText = "Приятного отдыха сэр.";
+        speak(finalText);
       } else if (transcript === "Джарвис") {
         const finalText = "Да, сэр, ДЖАРВИС вашим услугам.";
         speak(finalText);
