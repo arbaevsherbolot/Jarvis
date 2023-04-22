@@ -46,9 +46,7 @@ export const Home = () => {
         window.open("https://chat.openai.com/");
         const finalText = "протокол чат помощник активирован сэр.";
         speak(finalText);
-      } else if (
-        transcript === "Джарвис поставь Мстителей"
-      ) {
+      } else if (transcript === "Джарвис поставь Мстителей") {
         window.open("https://ww6.frkp.lol/film/843649/");
         const finalText = "Приятного просмотра сэр.";
         speak(finalText);
@@ -77,14 +75,16 @@ export const Home = () => {
           let day = new Date();
           let hr = day.getHours();
 
+          let currentTime = new Date().toLocaleTimeString();
+
           if (hr >= 0 && hr < 12) {
-            speak("Доброе утро сэр, с возвращением.");
+            speak(`Доброе утро сэр, с возвращением. Время ${currentTime}`);
           } else if (hr == 12) {
-            speak("Здравствуйте сэр, с возвращением.");
+            speak(`Здравствуйте сэр, с возвращением. Время ${currentTime}`);
           } else if (hr > 12 && hr <= 17) {
-            speak("Добрый день сэр, с возвращением.");
+            speak(`Добрый день сэр, с возвращением. Время ${currentTime}`);
           } else {
-            speak("Добрый вечер сэр, с возвращением.");
+            speak(`Добрый вечер сэр, с возвращением. Время ${currentTime}`);
           }
         };
         timeGreetings();
