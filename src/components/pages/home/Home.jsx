@@ -47,7 +47,7 @@ export const Home = () => {
         const finalText = "протокол чат помощник активирован сэр.";
         speak(finalText);
       } else if (
-        transcript === "Джарвис поставь Мстители война бесконечности"
+        transcript === "Джарвис поставь Мстителей война бесконечности"
       ) {
         window.open("https://ww6.frkp.lol/film/843649/");
         const finalText = "Приятного просмотра сэр.";
