@@ -60,7 +60,7 @@ export const Home = () => {
         window.open("https://www.youtube.com/watch?v=hFoKgX3IHY4");
         const finalText = "Приятного отдыха сэр.";
         speak(finalText);
-      } else if (transcript === "Джарвис какая сегодня погода") {
+      } else if (transcript === "Джарвис Какая сегодня погода") {
         window.open(
           "https://www.google.com/search?q=%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D0%B0%20%D0%B2%20%D0%9A%D0%B0%D1%80%D0%B0%D0%BA%D0%BE%D0%BB"
         );
